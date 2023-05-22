@@ -1,0 +1,219 @@
+/* altni bosib turib mishkani bosganimizda bir vaqtda turlijoyda yozsa bo'ladi */
+/* ota tegi - biron tegga faqat maxsus berilgan joyda ishlash uchun beriladi, ya'ni boshqa joydagi
+ bir xil teglarda ham ishlamasligi uchun */
+
+body{
+    background-color: #C8e9f0;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar-item{
+    display: inline-block; /* yonma-on qo'yib beradi */
+    padding: 25px 10px;
+
+}
+.navbar-item a{
+    color: #808080;
+    text-decoration: none;
+}
+.flex-box{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.flex-item{
+    /*border: 2px solid red;*/
+    padding: 10px 15px;
+}
+.flex-item p{
+    background-color: white;
+    padding: 20px;
+}
+
+.navbar-item:hover{
+    background-color: #f1f1f1;
+}
+.navbar-item a:hover{
+    color: #3be9eb;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.fixed-1{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: deepskyblue;
+    border: 1px solid #248f91;
+    border-radius: 10px;
+    position: fixed;
+    left: 50px;
+    bottom: 80px;
+    line-height: 45px;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(180deg);
+}
+
+.fixed-2{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    /*background-color: deepskyblue;*/
+    border: 3px solid gold;
+    border-radius: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 80px;
+    line-height: 45px;
+    background-image: url("../rasmlar/avatar.png");
+    background-size: 100%;
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+    /*transform: rotate(180deg);*/
+}
+.fixed-2:focus{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    background-image: url("../rasmlar/avatar.png");
+    background-size: 230px;
+    background-repeat: no-repeat;
+}
+
+
+
+.fixed-1:hover{
+    background-color: dodgerblue;
+}
+
+.flex-item{
+    position: relative;
+    z-index: -1;
+}
+
+.badge-1{
+    background-color: #248f91;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 26px;
+    right: 15px;
+}
+.badge-2{
+    background-color: #248f91;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 26px;
+    right: 15px;
+}
+.badge-3{
+    background-color: #248f91;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 26px;
+    right: 15px;
+}
+
+.badge-4{
+    background-color: dimgrey;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 26px;
+    left: 15px;
+}
+.badge-5{
+    background-color: dimgrey;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 26px;
+    left: 15px;
+}
+.badge-6{
+    background-color: dimgrey;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 26px;
+    left: 15px;
+}
+.navbar-item{
+    position: relative;
+    padding-right: 25px;
+}
+.navbar-item:after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    /*vertical-align: middle;
+    margin-left: 5px;*/
+    position: absolute;
+    top: 40%;
+    right: 5px;
+}
+.drop-menu{
+    position:absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: white;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu{
+    display: block;
+}

@@ -1,0 +1,165 @@
+body{
+    background-color: #C8e9f0;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #ffffff;
+    margin: 10px 50px;
+    padding: 10px 0px 20px 5px;
+}
+.navbar-menu{
+    text-align: left;
+    margin: 0;
+    /*padding: 10px 0px;*/
+}
+.navbar-item-1{
+    display: inline-block;
+    padding: 25px 5px;
+}
+.navbar-item-2{
+    display: inline-block;
+    padding: 25px 5px;
+}
+.navbar-item-3{
+    display: inline-block;
+    padding: 25px 5px;
+}
+.navbar-item-4{
+    display: inline-block;
+    padding: 25px 5px;
+}
+.navbar-item-5{
+    display: inline-block;
+    padding: 25px 5px;
+}
+.navbar-item-6{
+    display: inline-block;
+    padding: 25px 5px;
+}
+.navbar-item-7{
+    display: inline-block;
+    padding: 25px 5px;
+}
+.navbar-item-8{
+    display: inline-block;
+    padding: 25px 5px;
+}
+.navbar-item-9{
+    display: inline-block;
+    padding: 25px 5px;
+}
+
+
+.navbar-item-1 a{
+    color: #000000;
+    text-decoration: none;
+    border-left: 3px solid dodgerblue;
+    font-size: 12px;
+    word-spacing: 5px;
+    padding-left: 5px;
+
+}
+.navbar-item-2 a{
+    color: #000000;
+    text-decoration: none;
+    border-left: 3px solid #34c9eb;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.navbar-item-3 a{
+    color: #000000;
+    text-decoration: none;
+    border-left: 2px solid chocolate;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.navbar-item-4 a{
+    color: #000000;
+    text-decoration: none;
+    border-left: 2px solid yellow;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.navbar-item-5 a{
+    color: #000000;
+    text-decoration: none;
+    border-left: 2px solid mediumorchid;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.navbar-item-6 a{
+    color: #000000;
+    text-decoration: none;
+    border-left: 2px solid palevioletred;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.navbar-item-7 a{
+    color: #808080;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 12px;
+
+
+}
+.navbar-item-8 a{
+    color: #808080;
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+.navbar-item-9 a{
+    color: #808080;
+    text-decoration: none;
+    font-size: 12px;
+    border-right: 2px solid #808080;
+    padding-right: 8px;
+}
+
+
+.navbar-item-1 a:hover{
+    color: dodgerblue;
+}
+.navbar-item-2 a:hover{
+    color: #3be9eb;
+}
+.navbar-item-3 a:hover{
+    color: chocolate;
+}
+.navbar-item-4 a:hover{
+    color: yellow;
+}
+.navbar-item-5 a:hover{
+    color: mediumorchid;
+}
+.navbar-item-6 a:hover{
+    color: palevioletred;
+}
+.navbar-item-7 a:hover{
+    color: #000000;
+}
+.navbar-item-8 a:hover{
+    color: #000000;
+}
+.navbar-item-9 a:hover{
+    color: #000000;
+}
+.navbar-item-10 a:hover{
+    color: #000000;
+}
+
+
+.logo-1{
+    margin-right: 200px;
+    margin-bottom: -20px;
+}
+.logo-2{
+    margin-left: 157px;
+
+}
+.logo-3{
+   margin-left: 1230px;
+    margin-top: -45px;
+}
